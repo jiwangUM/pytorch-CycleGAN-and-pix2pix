@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/horse2zebra --name horse2zebra_1x_9layer --model cycle_gan --netG resnet_9blocks --progressive_train --progressive_repo horse2zebra_4x_9layer --progressive_layer 9 --progressive_epoch 5 --down_sample_nl 4 --load_size 286 --crop_size 256 --ngf 8 --ndf 8
