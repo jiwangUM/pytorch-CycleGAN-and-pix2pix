@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/cityscapes --name city_wgan_4x_9layer --model cycle_gan --netG resnet_9blocks --down_sample_nl 3 --load_size 288 --crop_size 256 --ngf 8 --ndf 8 --gan_mode wgangp
