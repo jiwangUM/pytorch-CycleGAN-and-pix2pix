@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/cityscapes --name city_2x_9layer --model cycle_gan --netG resnet_9blocks --progressive_train --progressive_repo city_4x_9layer --progressive_layer 9 --progressive_epoch 200 --down_sample_nl 2 --load_size 144 --crop_size 128 --ngf 16 --ndf 16
